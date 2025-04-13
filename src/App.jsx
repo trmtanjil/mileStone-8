@@ -1,4 +1,7 @@
 import './App.css'
+import DaisyuiNavbar from './assets/components/daisyuiNaveBar/daisyuiNavbar'
+import Navbar from './assets/components/navbar/navbar'
+ 
 
 function App() {
  
@@ -6,12 +9,15 @@ function App() {
   return (
     <>
      
-     <navbar>
+     <header>
+      <Navbar></Navbar>
+      <DaisyuiNavbar>
 
-     </navbar>
+      </DaisyuiNavbar>
+     </header>
       
       <main>
-        
+
       </main>
 
     </>

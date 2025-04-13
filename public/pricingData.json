@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Basic Plan",
+      "price": "$29/month",
+      "target": "Beginners or casual gym-goers",
+      "features": [
+        "Access to gym equipment",
+        "Locker & shower access",
+        "Open 6 AM – 10 PM",
+        "Free Wi-Fi"
+      ]
+    },
+    {
+      "name": "Standard Plan",
+      "price": "$49/month",
+      "target": "Regular gym users looking for balance",
+      "features": [
+        "All features from Basic",
+        "2 personal training sessions/month",
+        "Access to group classes (Zumba, HIIT, Yoga)",
+        "Free fitness app access",
+        "Monthly progress tracking"
+      ]
+    },
+    {
+      "name": "Premium Plan",
+      "price": "$79/month",
+      "target": "Fitness enthusiasts & serious lifters",
+      "features": [
+        "All features from Standard",
+        "Unlimited personal training",
+        "24/7 gym access",
+        "Sauna & steam room access",
+        "Diet & nutrition planning",
+        "Priority support & early access to new classes"
+      ]
+    }
+  ]
+  

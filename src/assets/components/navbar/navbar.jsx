@@ -64,7 +64,9 @@ const links =   navLinks.map(rounter=> <Links rounter={rounter}></Links> )
             menue ? <X  className='md:hidden'></X> : <Menu className='md:hidden' ></Menu>
         }
       
-        <ul className='md:hidden'>
+        <ul className={`md:hidden absolute  duration-1000
+          ${menue ? 'top-8 ' : '-top-52 '}
+           bg-green-600 text-black rounded-2xl`}>
             {links}
         </ul>
 

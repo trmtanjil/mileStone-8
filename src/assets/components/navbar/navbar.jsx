@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Links from './Links';
+import { Menu, X } from 'lucide-react'
+ 
  
 
 const navLinks = [
@@ -49,18 +51,35 @@ const navLinks = [
   
 
 const Navbar = () => {
+    const [menue, setmenue]= useState(false)
+
+const links =   navLinks.map(rounter=> <Links rounter={rounter}></Links> )
+
     return (
         <div>
             
-        
- 
-           <ul className='flex'>
-           {
-                navLinks.map(rounter=> <Links rounter={rounter}></Links> )
+     <nav  className='flex justify-between mx-6'>
+     <span className='flex gap-3' onClick={()=>setmenue(!menue)}>
+        { 
+            menue ? <X  className='md:hidden'></X> : <Menu className='md:hidden' ></Menu>
+        }
+      
+        <ul className='md:hidden'>
+            {links}
+        </ul>
+
+      <h2>Navbar</h2>
+    </span>
+             
+           <ul className='md:flex hidden  '>
+            {
+              links
             }
  
            </ul>
         
+          <button className="btn"> button</button>
+     </nav>
 
 
             {/* <ul className='flex'>

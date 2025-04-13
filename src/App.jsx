@@ -21,9 +21,9 @@ function App() {
       <Navbar></Navbar>
 
     
-      <DaisyuiNavbar>
+      {/* <DaisyuiNavbar>
 
-      </DaisyuiNavbar>
+      </DaisyuiNavbar> */}
      </nav>
       
       <main>

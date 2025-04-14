@@ -12,6 +12,7 @@
     },
     {
       "name": "Standard Plan",
+      "popular" : "true",
       "price": "$49/month",
       "target": "Regular gym users looking for balance",
       "features": [

@@ -6,6 +6,7 @@ import PricingData from './assets/components/pricignData/PricingData'
 import ResultChart from './assets/components/resultChart/ResultChart'
 import Toltip from './assets/components/resultChart/Toltip'
 import axios from 'axios'
+import MarkData from './assets/components/MartkData/MarkData'
  
 
 

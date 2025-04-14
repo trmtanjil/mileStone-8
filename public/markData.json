@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Alice",
+      "physics": 85,
+      "math": 90,
+      "chemistry": 88
+    },
+    {
+      "name": "Bob",
+      "physics": 78,
+      "math": 82,
+      "chemistry": 80
+    },
+    {
+      "name": "Charlie",
+      "physics": 92,
+      "math": 95,
+      "chemistry": 94
+    },
+    {
+      "name": "Diana",
+      "physics": 70,
+      "math": 75,
+      "chemistry": 72
+    },
+    {
+      "name": "Ethan",
+      "physics": 88,
+      "math": 85,
+      "chemistry": 90
+    }
+  ]
+  
